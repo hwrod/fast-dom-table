@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>Filter 200K Records</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <input type="text" id="search" placeholder="Search" />
+    <div class="clusterize">
+      <table>
+        <thead></thead>
+      </table>
+      <div id="scrollArea" class="clusterize-scroll">
+        <table>
+          <tbody id="contentArea" class="clusterize-content">
+            <tr class="clusterize-no-data">
+              <td>Loading . . .</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clusterize.js/0.15.0/clusterize.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

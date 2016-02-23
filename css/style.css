@@ -1,0 +1,54 @@
+html, body, table {
+    height: 95%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    padding: 0 20px;
+    text-align: left;
+}
+
+table td {
+    width: 14%;
+}
+
+table td:nth-child(1) {
+    width: 28%;
+}
+
+table td:nth-child(2), table td:nth-child(3) {
+    width: 7%;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #ccd;
+    display: block;
+    font-size: 150%;
+    line-height: 150%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.clusterize-scroll {
+    max-height: 800px;
+    overflow: auto;
+}
+
+.clusterize-extra-row.clusterize-keep-parity {
+    display: none;
+}
+
+.clusterize-content{
+    outline: 0;
+}
+
+.clusterize-no-data td{
+    text-align: center;
+}
